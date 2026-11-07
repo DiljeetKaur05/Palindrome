@@ -11,4 +11,5 @@ def is_palindrome(value):
     if len(value) == 2:
         return value[0].lower() == value[1].lower()
 
-    return value.lower() == value.lower()[::-1]
+    cleaned = value.lower().replace(" ", "")
+    return cleaned == cleaned[::-1]

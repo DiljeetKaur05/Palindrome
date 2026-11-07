@@ -24,3 +24,6 @@ def test_long_palindrome():
 
 def test_mixed_case_palindrome():
     assert is_palindrome("RaceCar") is True
+
+def test_palindrome_with_spaces():
+    assert is_palindrome("nurses run") is True
