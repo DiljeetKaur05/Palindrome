@@ -7,3 +7,6 @@ def is_palindrome(value):
 
     if len(value) == 1:
         return True
+
+    if len(value) == 2:
+        return value[0] == value[1]
