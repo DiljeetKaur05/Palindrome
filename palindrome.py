@@ -8,3 +8,5 @@ def is_palindrome(value):
         return False
 
     return cleaned == cleaned[::-1]
+
+# TDD palindrome implementation completed
