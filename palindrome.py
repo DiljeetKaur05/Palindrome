@@ -9,6 +9,6 @@ def is_palindrome(value):
         return True
 
     if len(value) == 2:
-        return value[0] == value[1]
+        return value[0].lower() == value[1].lower()
 
-    return value == value[::-1]
+    return value.lower() == value.lower()[::-1]

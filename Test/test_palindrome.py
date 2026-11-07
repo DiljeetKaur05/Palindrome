@@ -21,3 +21,6 @@ def test_non_palindrome():
 
 def test_long_palindrome():
     assert is_palindrome("racecar") is True
+
+def test_mixed_case_palindrome():
+    assert is_palindrome("RaceCar") is True
