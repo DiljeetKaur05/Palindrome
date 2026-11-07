@@ -11,5 +11,4 @@ def is_palindrome(value):
     if len(value) == 2:
         return value[0] == value[1]
 
-    if len(value) > 2:
-        return False
+    return value == value[::-1]

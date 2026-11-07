@@ -18,3 +18,6 @@ def test_two_same_characters():
 
 def test_non_palindrome():
     assert is_palindrome("abc") is False
+
+def test_long_palindrome():
+    assert is_palindrome("racecar") is True
